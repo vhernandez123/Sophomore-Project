@@ -9,18 +9,55 @@ html {
   font-size: 35px;
   background-color: rgb(150, 150, 233);
 }
+.favorites-icon{
+    justify-content: right;
+}
+.main{
+    margin: 300px 300px;
+    background-color: whitesmoke;
+}
 section {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 30px 30px;
 }
+.logo{
+    text-align: center;
+    font-size: 4rem;
+    color: pink;
+    margin-bottom: 30px;
+}
+form{
+    width: 100%;
+    max-width:250px ;
+    max-height: 20px;
+    background-color: pink;
+    margin: 20px auto;
+    border-radius: 4px;
+    display: inline-flex;
+}
+form input{
+    width: 90%;
+    background-color: transparent;
+    padding: 10px;
+  outline: none;
+    border:none;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    }
 
 .below {
   font-size: 30px;
 }
 .flex-column {
   list-style-type: none;
+}
+.word-fav{
+  font-weight: bolder;
+  padding-top:0;
+  display: inline-flex;
 }
 .container {
   width: 90%;
@@ -30,21 +67,34 @@ section {
 }
 .welcome-area {
   text-align: center;
-  padding-top: 10%;
+
 }
-.name-entry {
-  text-align: center;
+.entry{
+    text-align: left;
+   padding-right:20rem ; 
+   margin: none;
+   padding-left: none;
+}
+.name{
+    font-size: 30px;
+}
+.name-question{
+    font-weight: bolder;
+    font-size: 40px;
+   
+    padding-right: 20%;
 }
 .navigation {
   padding: 10%;
   margin: 0;
 }
 .main {
-  padding: 5%;
+  padding-top: 0;
+
 }
 .favorites-icon {
   justify-content: right;
-  padding: 3%;
+
 }
 .button {
   width: 60px;
@@ -62,21 +112,40 @@ section {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 ion-icon {
-  font-size: 100px;
-  padding-top: 30%;
+  font-size:20px;
+  padding:10%;
   cursor: pointer;
+  align-items: center;
 }
 .nav-personal {
   display: inline-flex;
-  height: 200px;
+  height: 220px;
+  width: 210px;
   background-color: blue;
   cursor: pointer;
+  align-content: left;
+}
+.nav-personal ion-icon{
+    font-size: 300px;
+    text-align:center;
+    padding:0%;
+    margin-right: 15px;
+}
+.glist ion-icon{
+    font-size: 90px;
+    padding:10%;
+    padding-top: 20%;
+    margin:0;
+}
+.container{
+    text-align: right;
+    display:inline-block;
+   padding: 15%;
 }
 
 .recipes-tabs {
   font-size: 30px;
+font-family:"Bonheur Royale" ;
+font-weight: bolder;
   text-align: center;
-  padding-top: 12%;
-  background-color: blue;
-  cursor: pointer;
 }
