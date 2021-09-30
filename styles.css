@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+html {
+  font-family: "Bonheur Royale";
+  font-size: 35px;
+  background-color: rgb(150, 150, 233);
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 30px;
+}
+
+.below {
+  font-size: 30px;
+}
+.flex-column {
+  list-style-type: none;
+}
+.container {
+  width: 90%;
+  height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.welcome-area {
+  text-align: center;
+  padding-top: 10%;
+}
+.name-entry {
+  text-align: center;
+}
+.navigation {
+  padding: 10%;
+  margin: 0;
+}
+.main {
+  padding: 5%;
+}
+.favorites-icon {
+  justify-content: right;
+  padding: 3%;
+}
+.button {
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgb(150, 150, 233);
+}
+.button:hover {
+  background: yellow;
+}
+.navigation {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+ion-icon {
+  font-size: 100px;
+  padding-top: 30%;
+  cursor: pointer;
+}
+.nav-personal {
+  display: inline-flex;
+  height: 200px;
+  background-color: blue;
+  cursor: pointer;
+}
+
+.recipes-tabs {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 12%;
+  background-color: blue;
+  cursor: pointer;
+}
