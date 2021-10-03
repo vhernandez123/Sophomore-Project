@@ -15,7 +15,7 @@ html {
 }
 .main {
   width: fit-content;
-  margin: 100px 9px 100px 100px;
+  margin: 100px 100px 100px 100px;
   padding: 10%;
   display: inline-flex;
   justify-content: center;
@@ -36,6 +36,7 @@ section {
   font-size: 4rem;
   color: rgb(13, 58, 25);
   margin-bottom: 30px;
+  padding: 4%;
 }
 form {
   width: 100%;
@@ -80,7 +81,10 @@ form input {
   justify-content: center;
   padding-top: 70%;
   color:rgb(30, 88, 22);
-}
+  }
+ .welcome{
+     padding-bottom: 4%;
+ }
 .entry {
   text-align: left;
   padding-right: 20rem;
@@ -150,7 +154,7 @@ ion-icon {
   text-align: right;
   display: inline-flexbox;
   padding: 15%;
-  width: max-content; 
+  width: max-content;
 }
 .fav-button {
   display: inline-flex;
