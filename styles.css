@@ -150,7 +150,7 @@ ion-icon {
   text-align: right;
   display: inline-flexbox;
   padding: 15%;
-  width: max-content;
+  width: max-content; 
 }
 .fav-button {
   display: inline-flex;
