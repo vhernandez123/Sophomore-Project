@@ -7,17 +7,21 @@
 html {
   font-family: "Bonheur Royale";
   font-size: 35px;
+  border-color: blue;
+  background-color: rgba(116, 36, 5, 0.459);
 }
 .favorites-icon {
   justify-content: right;
   padding: 10%;
 }
 .main {
-  width: max-content;
+  width: fit-content;
   margin: 100px 200px 100px 200px;
-  background-color: rgb(157, 241, 179);
+  background-color: rgba(151, 223, 170, 0.637);
   padding: 10%;
   display: inline-flex;
+  justify-content: center;
+
 }
 section {
   display: flex;
@@ -34,10 +38,10 @@ section {
 form {
   width: 100%;
   max-width: 250px;
-  max-height: 20px;
+  max-height: 25px;
   background-color: rgb(222, 241, 222);
-  margin: 20px auto;
-  border-radius: 4px;
+
+  border-radius: 100px;
   display: inline-flex;
 }
 form input {
@@ -61,16 +65,18 @@ form input {
   font-weight: bolder;
   display: inline-flex;
   justify-content: right;
+  margin-left: none;
+  padding-left: none;
 }
 .container {
-  width: 90%;
-  height: auto;
-  max-width: 1200px;
-  margin: 0 auto;
+  height: fit-content;
+
   justify-content: right;
 }
 .welcome-area {
   text-align: center;
+  justify-content: center;
+  padding-top: 70%;
 }
 .entry {
   text-align: left;
@@ -85,8 +91,7 @@ form input {
 .name-question {
   font-weight: bolder;
   font-size: 40px;
-  padding-top: -200rem;
-  padding-right: 20%;
+  padding-right: 50%;
 }
 .navigation {
   display: inline-flex;
@@ -105,7 +110,7 @@ form input {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background-color: rgb(162, 187, 49);
+  background-color: rgba(231, 213, 48, 0.925);
 }
 .fav-button:hover {
   background: rgb(72, 131, 99);
