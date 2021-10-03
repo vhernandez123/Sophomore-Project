@@ -32,26 +32,30 @@
         </li>
         <li class="nav-item">
           <!-- Make a grcoery list Button which calls JS function-->
-            <button onclick="visitGroceryList()"  id="grocerylist" class="nav-personal glist";>
-                <div class="recipes-tabs"> Make a grocery list</div>
-                    <ion-icon name="book-outline"></ion-icon></ion-icon>
+            <button onclick="visitGroceryList()"  id="grocerylist" class="nav-personal";>
+                <div class="recipes-tabs"> Make a grocery list...
+
+                </div>
+                  <!--HAD TO PUT THIS ICON IN A SEPARATE DIV DUE TO SIZING ISSUES WITH THE ICON BUT ITS ALL GOOD NOW-->
+                <div class="book-icon">
+                    <ion-icon name="book-outline" ></ion-icon></ion-icon></div>
             </button>
         <!-- end of nav bar code -->
             </div>
         </li>
-      </ul></div> <span class="container">
+      </ul></div>
+ <span class="container">
         <span class="favorites-icon">
             <span class="word-fav">My Favorites</span>
-          <button type="button" class="button">
+          <button onclick="favoritesTab()" id ="favs"class="fav-button">
               <ion-icon name="star-outline" size="large"></ion-icon>
           </button>
         </span>
         <span class ="name entry">
             <h1 class ="name name-question">
                 New Here?
-                We would love to know your name!
                 <form class="enter-name">
-                    <input type="text" placeholder="Type your name here...">
+                    <input type="text" placeholder="Type name here...">
                 </form>
             </h1>
         </span>
