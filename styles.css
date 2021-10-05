@@ -15,15 +15,14 @@ html {
 }
 .main {
   width: fit-content;
-  margin: 100px 100px 100px 100px;
+  height: max-content;
+  margin: 100px;
   padding: 10%;
   display: inline-flex;
   justify-content: center;
   background-image: url(img/bowl.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
-
 }
 section {
   display: flex;
@@ -80,11 +79,11 @@ form input {
   text-align: center;
   justify-content: center;
   padding-top: 70%;
-  color:rgb(30, 88, 22);
-  }
- .welcome{
-     padding-bottom: 4%;
- }
+  color: rgb(30, 88, 22);
+}
+.welcome {
+  padding-bottom: 4%;
+}
 .entry {
   text-align: left;
   padding-right: 20rem;
