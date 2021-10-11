@@ -168,3 +168,14 @@ ion-icon {
   text-align: center;
   color: rgba(165, 42, 42, 0.438);
 }
+.tracker-foot {
+  position: absolute;
+  bottom: -110px;
+  right: 230px;
+}
+
+.tracker-foot .tracker-text {
+  font-family: "Bonheur Royale";
+  font-size: 30px;
+  background-color: rgba(231, 213, 48, 0.925);
+}
