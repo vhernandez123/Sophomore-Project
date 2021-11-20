@@ -1,0 +1,64 @@
+
+
+/* utilities page */
+
+.Utilities-title{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10;
+    margin: 10;
+    color: rgba(242, 250, 241, 0.74);
+    background-color: rgba(36, 102, 20, 0.79);
+}
+.buttonBg {
+    background-color: olivedrab;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.utility-list {
+    text-align: left;
+    color: #000;
+    margin-top: auto;
+}
+
+.util {
+    background-color: burlywood;
+    width: 95%;
+    padding: 15px;
+    border-radius: 16px;
+    outline: #228b22;
+}
+
+.utility-img {
+    width: auto;
+    height: 150px;
+    align-items: left;
+}
+
+.description{
+    text-align: left;
+    margin-top: auto;
+    display: inline-block;
+    position: relative;
+}
+.supplies {
+    display: absolute;
+    max-width: 25%;
+    max-height: 95px;
+    overflow: none;
+}
+
+.template {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-gap: 100px;
+    grid-template: auto/repeat(auto-fit, minmax(500px, 1fr));
+}
