@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Meal Tracker</title>
+    <link rel="shortcut icon" href="favicon.ico" type="img/jpg">
+    <link href="mealtrack122.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="calendarYear">
+            <form class="chooseMonth">
+                <label class="cMonth" for="month">Jump To: </label>
+                <select name="month" id="month" onchange="chooseDropDown()"> 
+                <option value=0>January</option>
+                <option value=1>February</option>
+                <option value=2>March</option>
+                <option value=3>April</option>
+                <option value=4>May</option>
+                <option value=5>June</option>
+                <option value=6>July</option>
+                <option value=7>August</option>
+                <option value=8>September</option>
+                <option value=9>October</option>
+                <option value=10>November</option>
+                <option value=11>December</option>
+                </select>
+
+
+                <form class="chooseYear">
+                    <label for="cYear" for="year"> Pick Year: </label>
+                    <select name="year" id="year" onchange="chooseDropDown()">
+                <option value=2015>2015</option>
+                <option value=2016>2016</option>
+                <option value=2017>2017</option>
+                <option value=2018>2018</option>
+                <option value=2019>2019</option>
+                <option value=2020>2020</option>
+                <option value=2021>2021</option>
+                <option value=2022>2022</option>
+                <option value=2023>2023</option>
+                <option value=2024>2024</option>
+                <option value=2025>2025</option>
+                </select>
+                </form>
+            </form>
+
+
+            <button class="lastMonth" id="back" onclick="lastMonth()">Back</button>
+            <button class="nextMonth" id="next" onclick="nextMonth()">Next</button>
+            <h1 id="monthAndYearTitle"> November 2021 </h1>
+            <table class="monthlyView">
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody id="days">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="mealtrack123.js"></script>
+
+
+
+
+    <h1>Track Your Meals</h1>
+    <div class="checklist">
+        <h2> Meal Checklist </h2>
+        <ul>
+            <li>
+                <!-- Checkbox -->
+                <label>
+                        <input type="checkbox" name="">
+                        <span></span>
+                      </label>
+                <!-- Put the boxes that Salena had a notebad into the the checklist -->
+                <input type="food" name="breakfast" id="breakfast" placeholder="What did you eat today?" value="">
+                <!--- <input type="button" name="submit2"> -->
+                <button onclick="breakfastList()">Submit</button>
+                <p id="displayedB"></p>
+                <!-- Prints the list-->
+                <div class="displayList1">
+                    <p><span id="displayBreakfast"></span></p>
+                </div>
+            </li>
+            <li>
+                <label>
+                          <input type="checkbox" name="">
+                          <span></span>
+                        </label>
+                <input type="food" name="lunch" id="lunch" placeholder="What did you eat today? (Lunch)" value="">
+                <!--- <input type="button" name="submit2"> -->
+                <button onclick="lunchList()">Submit</button>
+                <p id="displayedL"></p>
+                <div class="displayList2">
+                    <p><span id="displayLunch"></span></p>
+                </div>
+            </li>
+            <li>
+                <label>
+                        <input type="checkbox" name="">
+                        <span></span>
+                      </label>
+                <input type="food" name="dinner" id="dinner" placeholder="What did you eat today?" value="">
+                <!--- <input type="button" name="submit2"> -->
+                <button onclick="dinnerList()">Submit</button>
+                <p id="displayedD"></p>
+                <div class="displayList3">
+                    <p><span id="displayDinner"></span></p>
+                </div>
+            </li>
+
+            <li>
+                <label>
+                        <input type="checkbox" name="">
+                        <span></span>
+                      </label>
+                <input type="food" name="snack" id="snack" placeholder="What did you eat today?" value="">
+                <!--- <input type="button" name="submit2"> -->
+                <button onclick="snackList()">Submit</button>
+                <p id="displayedS"></p>
+                <div class="displayList4">
+                    <p><span id="displaySnack"></span></p>
+                </div>
+            </li>
+            <li>
+                <label>
+                        <input type="checkbox" name="">
+                        <span></span>
+                      </label>
+                <input type="food" name="other" id="other" placeholder="What did you eat today?" value="">
+                <!--- <input type="button" name="submit2"> -->
+                <button onclick="otherList()">Submit</button>
+                <p id="displayedO"></p>
+                <div class="displayList5">
+                    <p><span id="displayOther"></span></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- footer to take you home-->
+    <a href="index.html">
+        <footer>
+          <span class="return">
+            <i class="goHome">Return to Home page </i>
+            <ion-icon name="home-outline"></ion-icon>
+          </span>
+        </footer>
+      </a>
+     
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+    </body>
+
+</html>
